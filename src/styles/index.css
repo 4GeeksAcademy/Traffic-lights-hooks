@@ -1,12 +1,55 @@
 
-/* 
+.support {
+    width: 30px;
+    height: 250px;
+    margin: 0 auto;
+    background-color: black;
+    border-radius: 2px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.light-container {
+    width: 180px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 10px;
+}
 
-*/
+.light-container div {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.red-light{
+    background-color: rgb(255, 0, 0, 0.80); 
+}
+
+.yellow-light{
+    background-color: rgba(255, 255, 0, 0.80); 
+}
+
+.green-light{
+    background-color: rgba(0, 255, 0, 0.80);
+}
+
+
+.bright{
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 1);
+  }
+
+  button {
+    background-color: #8c38ab;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+
